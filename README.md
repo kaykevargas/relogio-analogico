@@ -1,33 +1,26 @@
-<h1 align="center"> ⌚ Relógio Analógico </h1>
+# Relógio Analógico ⌚
 
-<p align="center">
-  Projeto de um Relógio Analógico interativo desenvolvido para aprimorar habilidades práticas de manipulação de DOM e lógica matemática com JavaScript.
-</p>
+![Preview do Projeto](./assets/preview/preview.png)
 
-<p align="center">
-  <a href="https://kaykevargas.github.io/relogio-analogico/" target="_blank"><strong>🔗 Teste o Projeto Online Aqui</strong></a>
-</p>
+## 📄 Descrição
+Projeto desenvolvido para colocar em prática os fundamentos de **JavaScript**, focado na manipulação do DOM e no uso de lógica matemática e funções de tempo (`setInterval`). O objetivo foi criar um relógio analógico funcional, com cálculo preciso de ângulos para a rotação dos ponteiros em tempo real.
 
-<br>
+## ✨ Funcionalidades
+- [x] **Horário em Tempo Real:** Exibe horas, minutos e segundos sincronizados com o sistema.
+- [x] **Cálculo de Rotação:** O script calcula dinamicamente o ângulo exato de cada ponteiro.
+- [x] **Atualização Automática:** O display é atualizado a cada 1000ms (1 segundo) de forma fluida.
 
-### 🛠️ Tecnologias Utilizadas
+## 💻 Tecnologias Utilizadas
+* **HTML5** (Estrutura)
+* **CSS3** (Estilização e uso do `transform: rotate()`)
+* **JavaScript** (Lógica de programação matemática)
 
-<p align="left">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
-</p>
-
-### ✨ O que eu aprendi neste projeto
-
-* **Manipulação de CSS Avançada:** Uso da propriedade `transform: rotate()` e `transform-origin` para fazer os ponteiros girarem no eixo correto.
-* **Lógica de Tempo no JS:** Cálculo matemático dos ângulos de cada ponteiro (horas, minutos e segundos) baseado no objeto `Date()` do JavaScript.
-* **Funções Assíncronas:** Utilização do `setInterval()` para atualizar a interface a cada 1 segundo (1000ms) sem travar a página.
+## 🌐 Link do Deploy (Veja rodando)
+Clique abaixo para ver o projeto online:
+🔗 **[Acessar Relógio Analógico](https://kaykevargas.github.io/relogio-analogico/)**
 
 ---
 
-### 🚀 Como executar localmente
-
-1. Clone este repositório na sua máquina:
-   ```bash
-   git clone [https://github.com/kaykevargas/relogio-analogico.git](https://github.com/kaykevargas/relogio-analogico.git)
+<p align="center">
+Desenvolvido por <a href="https://github.com/kaykevargas">Kayke Vargas</a> durante estudos de Frontend.
+</p>
